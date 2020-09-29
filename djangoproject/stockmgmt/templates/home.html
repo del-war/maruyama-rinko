@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title_block %} {{title}} {% endblock %}
+
+{% block body_block %}
+  <h1 class="home_title">{{title}}</h1>
+  <br>
+
+  <div class="slider-wrapper" id="slider">
+        <ul class="slider-img">
+          <li>
+            <img src="static/img/slide_1.jpg" alt="" />
+          </li>
+          <li>
+            <img src="static/img/slide_2.jpg" alt=""/>
+          </li>
+          <li>
+            <img src="static/img/slide_3.jpg" alt=""/>
+          </li>
+        </ul>
+      </div>
+
+{% endblock %}
